@@ -60,8 +60,7 @@ namespace Week02
         {
             ClearBuffers();
 
-            Matrix4x4 view = camera.transform.worldToLocalMatrix;
-            Matrix4x4 projection = camera.projectionMatrix;
+            
 
             for (int oi = 0; oi < allObjects.Count; oi++)
             {
@@ -69,8 +68,17 @@ namespace Week02
                 Vector3[] vertices = mesh.vertices;
                 Vector3[] normals = mesh.normals;
                 int[] indices = mesh.triangles;
-                Matrix4x4 model = allObjects[oi].transform.localToWorldMatrix;
-                Matrix4x4 MVP = projection * view * model;
+
+
+                // TODO - EXERCISE compute the MVP matrix
+                Matrix4x4 model = Matrix4x4.identity;       // get the localToWorldMatrix for object transform at index "oi"
+                Matrix4x4 view = Matrix4x4.identity;        // get the worldToLocalMatrix from the camera transform
+                Matrix4x4 projection = Matrix4x4.identity;  // get the projectionMatrix from the camera 
+                Matrix4x4 MVP = Matrix4x4.identity;         //multiply the three matrices in the right order
+
+
+
+
                 Matrix4x4 modelNormal = (model).transpose.inverse;
                 
                 for (int vi = 0; vi < vertices.Length; vi++)

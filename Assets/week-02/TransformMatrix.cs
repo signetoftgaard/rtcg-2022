@@ -38,15 +38,9 @@ namespace Week02
 
             // create the translation matrix
             Matrix4x4 T = Matrix4x4.identity;
-            T.m03 = position.x;
-            T.m13 = position.y;
-            T.m23 = position.z;
 
             // create the rotation matrix
             Matrix4x4 S = Matrix4x4.identity;
-            S.m00 = scale.x;
-            S.m11 = scale.y;
-            S.m22 = scale.z;
 
             // rotationX is given as an example
             Matrix4x4 RX = Matrix4x4.identity;
