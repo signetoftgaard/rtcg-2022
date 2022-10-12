@@ -95,7 +95,6 @@ Shader "Unlit/NewPhongShader"
                 float specular = _Ks * pow(max(0, dot(halfVector, normal)), _exp);
 
 
-
                 // we create our return variable, the final fragment color
                 fixed4 outColor = fixed4(0, 0, 0, 1);
 
