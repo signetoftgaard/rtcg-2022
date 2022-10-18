@@ -58,11 +58,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientIntensity: 0.032
+    - _AmbientIntensity: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DiffuseIntensity: 0.449
+    - _DiffuseIntensity: 0.324
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -72,9 +72,9 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _SpecularExponent: 50
+    - _SpecularExponent: 42
     - _SpecularHighlights: 1
-    - _SpecularIntensity: 1.15
+    - _SpecularIntensity: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
