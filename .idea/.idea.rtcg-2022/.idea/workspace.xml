@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bbf94e-2208-4452-b779-7086bb3a5e46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/week-04/NewPhongShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/week-04/NewPhongShader.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.rtcg-2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rtcg-2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/week-04/AssignmentPhongShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/week-04/AssignmentPhongShader.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
       <workItem from="1663676150643" duration="867000" />
       <workItem from="1664282218506" duration="1008000" />
       <workItem from="1664283268396" duration="2134000" />
+      <workItem from="1666097166989" duration="3515000" />
     </task>
     <servers />
   </component>
