@@ -66,15 +66,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Ambient_reflection: 0.1
+    - _Ambient_reflection: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Diffuse_reflection: 0.5
+    - _Diffuse_reflection: 0.63
     - _DstBlend: 0
-    - _Exponent: 40
+    - _Exponent: 32.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -84,7 +84,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Specular_reflection: 0.5
+    - _Specular_reflection: 0.92
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
